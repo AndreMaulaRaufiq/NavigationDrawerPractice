@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/id_home_fragment"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_android_24"
+        android:checkable="true"
+        android:checked="true"/>
+
+    <item android:id="@+id/id_profile_fragment"
+        android:title="@string/profile"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_person_24" />
+
+    <item android:id="@+id/id_setting_fragment"
+        android:title="@string/setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:checkable="true" />
+
+</menu>
